@@ -338,10 +338,10 @@ def health():
 
 
 # ─── Entry point ──────────────────────────────────────────────────────────────
-if __name__ == "__main__":
     bot_running = True
     t = threading.Thread(target=scan_loop, daemon=True)
     t.start()
 
+if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
