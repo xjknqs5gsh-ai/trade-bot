@@ -149,7 +149,10 @@ def format_signal(pair, score, reasons):
         "Score: [" + bar + "] " + str(score) + "/100\n"
         + rsn + "\n"
         "------------------------\n"
-        "DYOR - Pas un conseil financier"
+        "Adresse: " + addr + "\n"
+"------------------------\n"
+"DYOR - Pas un conseil financier"
+
     )
     return msg
 
